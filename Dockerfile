@@ -1,9 +1,8 @@
 from debian:9-slim
 
-LABEL org.label-schema.vcs-url="https://github.com/wikiwi/stackdriver-agent" \
-      org.label-schema.vendor=wikiwi.io \
-      org.label-schema.name=stackdriver-agent \
-      io.wikiwi.license=MIT
+LABEL org.label-schema.vcs-url="https://github.com/mintel/stackdriver-agent" \
+      org.label-schema.vendor=mintel \
+      org.label-schema.name=stackdriver-agent
 
 ENV DEBIAN_FRONTEND=noninteractive
 
